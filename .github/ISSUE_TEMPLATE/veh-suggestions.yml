@@ -12,17 +12,23 @@ body:
       description: A clear and concise vehicle make and model 
     validations:
       required: true
-      
   - type: dropdown
     id: source
     attributes:
       label: How did you find the asset?
       options:
-        - Modder
-        - GTA-5 Mods
-        - Union Mods
-        - LSPDFR
-        - Other
+        - label: Modder
+        - label: GTA5Mods
+        - label: Union Mods
+        - label: LSPDFR
+        - label: Other
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Put the link where you found the vehicle.
     validations:
       required: true
   - type: checkboxes
