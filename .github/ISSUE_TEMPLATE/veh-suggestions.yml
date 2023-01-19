@@ -1,6 +1,8 @@
 name: Vehicle Suggestion
-description: Create a new suggestion for what vehicle you'd like to see added
-labels: "assets", "requested"
+description: Create a new suggestion for what vehicle you would like to see added
+labels: 
+  - "assets"
+  - "requested"
 body:
   - type: textarea
     attributes:
