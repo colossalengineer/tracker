@@ -15,11 +15,11 @@ body:
     attributes:
       label: How did you find the asset?
       options:
-        - label: Modder
-        - label: GTA5Mods
-        - label: Union Mods
-        - label: LSPDFR
-        - label: Other
+        - Modder
+        - GTA5Mods
+        - Union Mods
+        - LSPDFR
+        - Other
     validations:
       required: true
   - type: textarea
