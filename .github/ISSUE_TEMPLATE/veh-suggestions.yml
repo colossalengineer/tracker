@@ -1,9 +1,7 @@
 name: Vehicle Suggestion
 description: Create a new suggestion for what vehicle you would like to see added
 assignees: "CalLBLRP"
-labels: 
-  - "assets"
-  - "requested"
+labels: "assets,requested"
 body:
   - type: textarea
     id: vehicleMake
