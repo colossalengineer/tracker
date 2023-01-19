@@ -47,5 +47,5 @@ body:
       label: Does this vehicle require funding?
       description: Is it a paid asset or does it require a monetary contribution to be made?
       options:
-        - label: Yes
-        - label: No
+        - label: "Yes"
+        - label: "No"
