@@ -1,8 +1,7 @@
-name: Bug Report
-description: Create a report for something that isn't working as expected.
-labels: "bug"
+name: Vehicle Suggestion
+description: Create a new suggestion for what vehicle you'd like to see added
+labels: "assets", "requested"
 assignees:
-  - JxckUK
 body:
   - type: textarea
     attributes:
