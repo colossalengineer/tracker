@@ -1,12 +1,48 @@
 name: Vehicle Suggestion
 description: Create a new suggestion for what vehicle you would like to see added
+assignees: "CalLBLRP"
 labels: 
   - "assets"
   - "requested"
 body:
   - type: textarea
+    id: vehicleMake
     attributes:
       label: Details
-      description: A clear and concise description of what you are suggesting.
+      description: A clear and concise vehicle make and model 
     validations:
       required: true
+      
+  - type: dropdown
+    id: source
+    attributes:
+      label: How did you find the asset?
+      options:
+        - Modder
+        - GTA-5 Mods
+        - Union Mods
+        - LSPDFR
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: I have done the following
+      description: Ensure you have done the following before submitting the suggestion.
+      options:
+        - label: Checked its suitable for FiveM
+          required: true
+        - label: Checked its permitted/authorised for FiveM
+          required: true
+        - label: Checked it has an appropriate skin or has reskin permissions
+          required: true
+  - type: checkboxes
+    id: funding
+    attributes:
+      label: Does this vehicle require funding?
+      description: Is it a paid asset or does it require a monetary contribution to be made?
+      options:
+        - label: Yes
+        - label: No
+title: {{vehicleMake}}
