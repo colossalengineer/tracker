@@ -1,7 +1,6 @@
 name: Vehicle Suggestion
 description: Create a new suggestion for what vehicle you'd like to see added
 labels: "assets", "requested"
-assignees:
 body:
   - type: textarea
     attributes:
