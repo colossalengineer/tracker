@@ -1,0 +1,12 @@
+name: Bug Report
+description: Create a report for something that isn't working as expected.
+labels: "bug"
+assignees:
+  - JxckUK
+body:
+  - type: textarea
+    attributes:
+      label: Details
+      description: A clear and concise description of what you are suggesting.
+    validations:
+      required: true
